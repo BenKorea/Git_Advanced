@@ -208,16 +208,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="커밋합치기" class="level3">
 <h3 class="anchored" data-anchor-id="커밋합치기">커밋합치기</h3>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">--amend</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell">
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>recommeded project name</strong></pre>
-</div>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>R<span class="dv">-4</span>.<span class="fl">4.1</span><span class="sc">-</span>Hands_on_Shinylive_Example</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
 <ul>
-<li>두번째 커밋의 저자처럼 개인 프로젝트를 코딩하면서 노트북과 데스크탑을 오가면 의미가 없는 커밋이 많아지게 을 하게됩니다. 해</li>
+<li><code>--amend</code> 옵션은 마지막 커밋을 수정하거나 새로운 변경사항을 기존 커밋에 추가할 때 사용됩니다.</li>
+<li>작업 중 여러 번 커밋한 내용을 정리하거나, 작은 실수를 바로잡아 깔끔한 히스토리를 유지할 수 있습니다.</li>
+<li>기존 커밋의 정보를 덮어씌우기 때문에, 원격 저장소에 이미 푸시한 커밋을 수정할 경우 협업 중인 팀원과의 충돌이 발생할 수 있습니다. 수정 후에는 git push –force가 필요합니다.</li>
 </ul>
 <div class="callout callout-style-simple callout-note no-icon callout-titled" title="1단계: `Quarto Website` 프로젝트 만들기">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
@@ -251,7 +245,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="code-with-filename-file">
 <pre><strong>recommeded project name</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>R<span class="dv">-4</span>.<span class="fl">4.1</span><span class="sc">-</span>Hands_on_Shinylive_Example</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>R<span class="dv">-4</span>.<span class="fl">4.1</span><span class="sc">-</span>Hands_on_Shinylive_Example</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <ul>
